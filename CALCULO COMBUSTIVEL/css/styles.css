@@ -1,0 +1,189 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gradient-background {
+  /*background: linear-gradient(to right, #1a237e, #87CEEB);*/
+  background-image: url(../imagens/fundo2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed ;
+
+  height: 100vh; /* 100% da altura da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align:center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  border-radius: 5px;
+  border: 1px solid grey;
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 8px rgba(76, 175, 80, 0.6); /* Efeito de foco */
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.5); /* Efeito de foco com borda */
+}
+
+button:hover {
+  background-color: #e57373; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+#result {
+  display: none;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#resultado-container {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  font-weight: bolder;
+  padding: 0px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.outer-container {
+  background: rgb(126, 36, 36); /* Cor de fundo */
+  padding: 15px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+  overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+
+.social-icons {
+  color: white;
+	display: flex;
+  justify-content: space-around;
+  margin-top: 10px;;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 25px;
+  margin: 0 10px;;
+}
+
+.social-icons a:visited {
+  color: white;
+  font-size: 25px;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: green; 
+}
+
+footer {
+    background: rgb(114, 30, 30);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+	  border-radius: 10px; 
+    overflow: hidden; 
+    margin-top: 20px;
+}
+a:visited {
+    color: darkgrey;
+}
+
+a:hover {
+    color: green;
+	/*background-color: darkgrey;*/
+}
+
+.highlight-border {
+    border: 3px solid yellow; /* Borda amarela */
+  }
+
+  #botafogo {
+    background-color: white;
+    color: black; /* Cor do texto ajustada para preto */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  #flamengo {
+    background-color: black;
+    color: red; /* Cor do texto ajustada para vermelho */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  #fluminense {
+    background-color: green;
+    color: red; /* Cor do texto ajustada para branco */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  #vasco {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+
+.alert {
+  background-color: #f39c12;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+#resultado-container p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
